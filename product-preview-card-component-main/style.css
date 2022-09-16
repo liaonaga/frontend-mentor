@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    background-color: ;
+}
+
+:root {
+    /* ### Primary */
+    --cor0: hsl(158, 36%, 37%)
+    --cor1: hsl(30, 38%, 92%)
+    
+    /* ### Neutral */
+    
+    --cor2: hsl(212, 21%, 14%)
+    --cor3: hsl(228, 12%, 48%)
+    --cor4: hsl(0, 0%, 100%)
+}
+
+
+body {
+    font-size: 14px;
+}
+div {
+    background-color: white;
+    
+}
