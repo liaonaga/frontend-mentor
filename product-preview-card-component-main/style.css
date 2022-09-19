@@ -7,25 +7,34 @@
 
 :root {
     /* ### Primary */
-    --cor0: hsl(158, 36%, 37%)
-    --cor1: hsl(30, 38%, 92%)
+    --cor0: hsl(158, 36%, 37%);
+    --cor1: hsl(30, 38%, 92%);
     
     /* ### Neutral */
     
-    --cor2: hsl(212, 21%, 14%)
-    --cor3: hsl(228, 12%, 48%)
-    --cor4: hsl(0, 0%, 100%)
+    --cor2: hsl(212, 21%, 14%);
+    --cor3: hsl(228, 12%, 48%);
+    --cor4: hsl(0, 0%, 100%);
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background-color: var(--cor1);
+    
+
+}
 
 body {
     font-size: 14px;
 }
-div {
+div .main {
     background-color: white;
-    
+    width: 100px;
+    height: 100px;
 }
-
 
 
 /*estruturei mais ou menos o HTML
