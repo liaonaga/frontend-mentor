@@ -17,21 +17,34 @@ body {
     --cor3: hsl(228, 12%, 48%);
     --cor4: hsl(0, 0%, 100%);
 }
+.flex {
+    display: flex;
+    flex-direction: column;
+}
 
 .card {
     background-color: white;
-    width: 50vw;
-    height: 50vh;
-    padding: 30px;
+    
     border-radius: 10px ;
     display: flex;
+    margin: 1em;
+    width: 700px;
+    flex: 1;
+
 
 }
-picture img {
-    height: 90%;
+
+.flex .card img {
+    margin: 15px;
+    min-height: 90%;
+    max-width: 90%;
 }
 
 div .conteudo {
+    margin: 15px;
+    height: 90%;
+    max-width: 40%;
+
 
 }
 
