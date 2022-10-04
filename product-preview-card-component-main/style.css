@@ -18,13 +18,21 @@ body {
     --cor4: hsl(0, 0%, 100%);
 }
 
-div .conteudo, picture {
+.card {
     background-color: white;
-    width: 50%;
+    width: 50vw;
+    height: 50vh;
     padding: 30px;
-    margin: 20%;
-    display: inline-block;
-    border-radius: 10px;
+    border-radius: 10px ;
+    display: flex;
+
+}
+picture img {
+    height: 90%;
+}
+
+div .conteudo {
+
 }
 
 div .conteudo h1 {
@@ -33,7 +41,6 @@ div .conteudo h1 {
 }
 
 div .conteudo .categoria {
-    
     font-weight: 500;
     color: var(--cor3);
     font-size: 22px;
