@@ -39,12 +39,14 @@ body{
 
 .card {    
     background-color: var(--cor4);
-
+    opacity: ;
     display: flex;
     
     width: 625px;
     height: 470px;
     border-radius: 10px ;
+
+    
 
 
 }
